@@ -1,10 +1,20 @@
 ## Background
 
-In order to determine which teams will make it to the NBA playoffs each season,or which players will perform at the elite level for the majority of their teams playoffs run.These are the questions this project seeks to answer by creating a data pipeline that gathers relevant data from the source and displays this data on a dashboard as the final destination.
+The goal of this project is to determine;
+    * What characteristics teams that consistently make it to the playoffs share.
 
-## Data Wrangling
+    * Whether it is possible to use these characteristics to predict which teams will consistently make it to the playoffs. 
+    
+    * Is it possible to use these characteristics to predict which players will perform at an elite level for the majority of their teams playoffs run share? 
+    
+The project seeks to answer these questions by creating a data pipeline that gathers relevant data from the source and displays this data on a dashboard as the final destination.
+
+
+## Data Wrangling/ingesting
 
 * The relevant data about the nba teams and the players will be scraped from https://www.basketball-reference.com/
+
+* ingest data from local computer 
 
 ### Goal
 
